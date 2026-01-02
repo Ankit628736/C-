@@ -148,6 +148,262 @@ class Program
 {
     static void Main(string[] args)
     {
-        
+        // Question 1
+        // Console.Write("Enter your name: ");
+        // var Name = Console.ReadLine();
+        // Console.WriteLine(Name);
+
+        // Question 2
+        // string[] NameArr = new string[10];
+        // for(int i = 0; i < 10; i++)
+        // {
+        //     NameArr[i] = Console.ReadLine();
+        // }
+        // foreach(var it in NameArr)
+        // {
+        //     Console.WriteLine(it);
+        // }
+
+        // Question 3
+        // string[,] name = new string[2,2];
+        // for(int i = 0; i < 2; i++)
+        // {
+        //     for(int j = 0; j < 2; j++)
+        //     {
+        //         name[i,j] = Console.ReadLine();
+        //     }
+        // }
+        // Console.WriteLine("Name is here");
+        // for(int i = 0; i < 2; i++)
+        // {
+        //     for(int j = 0; j < 2; j++)
+        //     {
+        //         Console.WriteLine(name[i,j]);
+        //     }
+        // }
+
+
+        // Question 5 transpose of matrix
+        // int[,] name = new int[2, 2];
+        // for (int i = 0; i < 2; i++)
+        // {
+        //     for (int j = 0; j < 2; j++)
+        //     {
+        //         name[i, j] = int.Parse(Console.ReadLine());
+        //     }
+        // }
+        // Console.WriteLine("Current element: ");
+        // for (int i = 0; i < 2; i++)
+        // {
+        //     for (int j = 0; j < 2; j++)
+        //     {
+        //         Console.Write($"{name[i, j]} ");
+        //     }
+        //     Console.WriteLine();
+        // }
+        // int[,] tran = new int[2,2];
+        // for (int i = 0; i < 2; i++)
+        // {
+        //     for (int j = 0; j < 2; j++)
+        //     {
+        //         tran[j, i] = name[i, j];
+        //     }
+        // }
+        // Console.WriteLine("transpose element: ");
+        // for (int i = 0; i < 2; i++)
+        // {
+        //     for (int j = 0; j < 2; j++)
+        //     {
+        //         Console.Write($"{tran[i, j]} ");
+        //     }
+        //     Console.WriteLine();
+        // }
+
+        // Question 6 Add to matrix
+        // int[,] arr1 = new int[2, 2];
+        // for (int i = 0; i < 2; i++)
+        // {
+        //     for (int j = 0; j < 2; j++)
+        //     {
+        //         arr1[i, j] = int.Parse(Console.ReadLine());
+        //     }
+        // }
+        // int[,] arr2 = new int[2, 2];
+        // for (int i = 0; i < 2; i++)
+        // {
+        //     for (int j = 0; j < 2; j++)
+        //     {
+        //         arr2[i, j] = int.Parse(Console.ReadLine());
+        //     }
+        // }
+        // int[,] arr3 = new int[2,2];
+        // for(int i = 0; i < 2; i++)
+        // {
+        //     for(int j = 0; j < 2; j++)
+        //     {
+        //         arr3[i,j] = arr1[i,j]+arr2[i,j];
+        //     }
+        // }
+        // for(int i = 0; i < 2; i++)
+        // {
+        //     for(int j = 0; j < 2; j++)
+        //     {
+        //         Console.Write($"{arr3[i,j]} ");
+        //     }
+        //     Console.WriteLine();
+        // }
+
+        // Question 7 matrix multiplication
+        // int[,] arr1 = new int[2, 2];
+        // for (int i = 0; i < 2; i++)
+        // {
+        //     for (int j = 0; j < 2; j++)
+        //     {
+        //         arr1[i, j] = int.Parse(Console.ReadLine());
+        //     }
+        // }
+        // int[,] arr2 = new int[2, 2];
+        // for (int i = 0; i < 2; i++)
+        // {
+        //     for (int j = 0; j < 2; j++)
+        //     {
+        //         arr2[i, j] = int.Parse(Console.ReadLine());
+        //     }
+        // }
+        // int[,] arr3 = new int[2,2];
+        // for(int i = 0; i < 2; i++)
+        // {
+        //     for(int j = 0; j < 2; j++)
+        //     {
+        //         for(int k = 0; k < 2; k++)
+        //         {
+        //             arr3[i,j] += arr1[i,k] * arr2[k,j]; 
+        //         }
+        //     }
+        // }
+        // for(int i = 0; i < 2; i++)
+        // {
+        //     for(int j = 0; j < 2; j++)
+        //     {
+        //         Console.Write($"{arr3[i,j]} ");
+        //     }
+        //     Console.WriteLine();
+        // }
+
+        // Question 8 digonal matrix
+        // int[,] arr1 = new int[2, 2];
+        // for (int i = 0; i < 2; i++)
+        // {
+        //     for (int j = 0; j < 2; j++)
+        //     {
+        //         arr1[i, j] = int.Parse(Console.ReadLine());
+        //     }
+        // }
+        // bool istrue = true;
+        // for(int i = 0; i < 2; i++)
+        // {
+        //     for(int j = 0; j < 2; j++)
+        //     {
+        //         if(i!=j && arr1[i,j] != 0)
+        //         {
+        //             istrue = false;
+        //             break;
+        //         }
+        //     }
+        // }
+        // if (istrue)
+        // {
+        //     Console.WriteLine("Is a digonal matrix");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("Is not digonal matrxi");
+        // }
+
+        // Question 9 reverse a string
+        // string name = Console.ReadLine();
+        // string rev = new string(name.ToCharArray().Reverse().ToArray());
+        // Console.WriteLine(rev);
+
+        // Question 10 reverse a string
+        // var ans = "";
+        // var name = Console.ReadLine();
+        // for(int i = name.Length - 1; i >= 0; i--)
+        // {
+        //     ans+= name[i];
+        // }
+        // Console.WriteLine(ans);
+
+        // Question 11  lower to upper and viversa
+        // var name = Console.ReadLine();
+        // Console.WriteLine($"{name.ToUpper()}");
+        // Console.WriteLine($"{name.ToLower()}");
+
+        // Question 12 string compare
+        // var name1 = Console.ReadLine();
+        // var name2 = Console.ReadLine();
+        // if (String.Compare(name1, name2) == 0)
+        // {
+        //     Console.WriteLine("Name is same");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("Name is not same");
+        // }
+
+        // Question 13 string compare
+        // var name1 = Console.ReadLine();
+        // var name2 = Console.ReadLine();
+        // if (name1 == name2)
+        // {
+        //     Console.WriteLine("Name is same");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("Name is not same");
+        // }
+
+        // Question 14 string concatinate
+        // var name1 = Console.ReadLine();
+        // var name2 = Console.ReadLine();
+        // var name3 = name1+name2;
+        // Console.WriteLine(name3);
+
+
+        // Question 15 search a string 
+        // var name6 = Console.ReadLine();
+        // if (name6.Contains("hello"))
+        // {
+        //     Console.WriteLine($"it has");
+        // }
+        // else
+        // {
+        //     Console.WriteLine("it don't");
+        // }
+
+        string name = Console.ReadLine();
+        string ans = "";
+        string rev = new string(name.ToCharArray().Reverse().ToArray());
+        int n = rev.Length;
+        for(int i = 0; i < n; i++)
+        {   
+            string word = "";
+            while(i<n && rev[i] == ' ') i++;
+            while(i<n && rev[i] != ' ')
+            {
+                word += rev[i];
+                i++;
+            }
+            string abc = new string(word.ToCharArray().Reverse().ToArray());
+            if(ans.Length == 0)
+            {
+                ans = abc;
+            }
+            else
+            {
+                ans += " "+abc;
+            }
+        }
+        Console.WriteLine(ans);
     }
 }
