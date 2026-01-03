@@ -1,0 +1,472 @@
+static void Main(string[] args)
+    {
+        // int[] arr = new int[5];
+        // for(int i = 0; i < arr.Length; i++)
+        // {
+        //     Console.Write("Enter index element: ");
+        //     arr[i] = int.Parse(Console.ReadLine());
+        // }
+        // for(int i = arr.Length-1; i >=0 ; i--)
+        // {
+        //     Console.Write($"{arr[i]} ");
+        // }
+        // Console.WriteLine();
+        // Array.Reverse(arr);
+        // for(int i = 0; i < arr.Length; i++)
+        // {
+        //     Console.Write($"{arr[i]} ");
+        // }
+        // Console.WriteLine();
+        // int sum = 0;
+        // for(int i = 0; i < arr.Length; i++)
+        // {
+        //     sum += arr[i];
+        // }
+        // Console.WriteLine($"Sum: {sum}");
+        // Console.WriteLine();
+        // Console.Write("Another Array: ");
+        // int[] arr2 = new int[arr.Length];
+        // for(int i = 0; i < arr.Length; i++)
+        // {
+        //     arr2[i] = arr[i];
+        // }
+        // for(int i = 0; i < arr.Length; i++)
+        // {
+        //     Console.Write($"{arr[i]} ");
+        // }
+        // Console.WriteLine();
+        // Console.Write("Enter length of Array: ");
+        // int n = int.Parse(Console.ReadLine());
+        // int[] arr = new int[n];
+        // for(int i = 0; i < n; i++)
+        // {
+        //     arr[i] = int.Parse(Console.ReadLine());
+        // }
+        // Array.Sort(arr);
+        // int Count = 0;
+        // for(int i = 1; i < n; i++)
+        // {
+        //     if(arr[i] == arr[i - 1])
+        //     {
+        //         Count++;
+        //         while(i<n && arr[i] == arr[i-1]) i++;
+        //     }
+        // }
+        // Console.WriteLine($"Number of duplicate element: {Count}");
+        // {1,2,2,3,3,4}
+        // for(int i = 0; i < n; i++)
+        // {
+        //     if (i == n-1)
+        //     {
+        //         Console.WriteLine($"{arr[i]}");
+        //         break;
+        //     }
+        //     if(arr[i] != arr[i + 1])
+        //     {
+        //         Console.Write($"{arr[i]} ");
+        //     }
+        //     else
+        //     {
+        //         while(i<n && arr[i]==arr[i+1])i++;
+        //     }
+        // }
+
+        // Console.Write("Enter len of first arr: ");
+        // int first = int.Parse(Console.ReadLine());
+        // Console.Write("Enter len of second arr: ");
+        // int second = int.Parse(Console.ReadLine());
+        // int[] arr1 = new int[first];
+        // int[] arr2 = new int[second];
+        // for(int x = 0; x < first; x++)
+        // {
+        //     arr1[x] = int.Parse(Console.ReadLine());
+        // }
+        // for(int x = 0; x < second; x++)
+        // {
+        //     arr2[x] = int.Parse(Console.ReadLine());
+        // }
+        // int[] arr3 = new int[first+second];
+        // int i=0;
+        // int j=0;
+        // int k = 0;
+        // while(i<first && j < second)
+        // {
+        //     if (arr1[i] < arr2[j])
+        //     {
+        //         arr3[k++] = arr1[i++];
+        //     }
+        //     else
+        //     {
+        //         arr3[k++] = arr2[j++];
+        //     }
+        // }
+        // while (i < first)
+        // {
+        //     arr3[k++] = arr1[i++];
+        // }
+        // while (j < second)
+        // {
+        //     arr3[k++] = arr2[j++];
+        // }
+        // for(int x = 0; x < first + second; x++)
+        // {
+        //     Console.Write($"{arr3[x]}");
+        // }
+
+
+
+        // int n = int.Parse(Console.ReadLine());
+        // int[] arr=new int[n];
+        // for(int i = 0; i < n; i++)
+        // {
+        //     arr[i] = int.Parse(Console.ReadLine());
+        // }
+
+        // for(int i = 0; i < n; i++)
+        // {
+        //     // {1,2,2,3,3,4}
+        //     int count = 0;
+        //     while(i<n-1 && arr[i] == arr[i + 1])
+        //     {
+        //         count++;
+        //         i++;
+        //     }
+        //     if(i==n-1 && arr[i-1] == arr[n - 1])
+        //     {
+        //         count++;
+        //         i++;
+        //     }
+        //     Console.WriteLine($"{arr[i]} count is {count+1}");
+        // }
+
+        // int n = int.Parse(Console.ReadLine());
+        // int[] arr=new int[n];
+        // for(int i = 0; i < n; i++)
+        // {
+        //     arr[i] = int.Parse(Console.ReadLine());
+        // }
+        // int maxi = int.MinValue;
+        // int mini = int.MaxValue;
+        // for(int i = 0; i < n; i++)
+        // {
+        //     if(maxi<arr[i]) maxi = arr[i];
+        //     if(mini>arr[i]) mini = arr[i];
+        // }
+        // Console.WriteLine($"maxValue: {maxi}, minValue: {mini}");
+        // int[] arr = {1,2,3,4,5,6,7,8,9};
+        // List<int> arr1 = new List<int>();
+        // List<int> arr2 = new List<int>();
+        // for(int i = 0; i < arr.Length; i++)
+        // {
+        //     if (arr[i] % 2 == 0)
+        //     {
+        //         arr1.Add(arr[i]);
+        //     }
+        //     else
+        //     {
+        //         arr2.Add(arr[i]);
+        //     }
+        // }
+        // foreach(var it in arr1)
+        // {
+        //     Console.Write($"{it} ");
+        // }
+        // Console.WriteLine();
+        // foreach(var it in arr2)
+        // {
+        //     Console.Write($"{it} ");
+        // }
+
+        //     int[] arr = new int[6] { 1, 2, 3, 4, 5, 6 };
+
+        //     Console.WriteLine($"Array index of value 6: {Array.IndexOf(arr, 6)}");
+        //     Console.WriteLine($"Array value at index 3: {arr.GetValue(3)}");
+        //     Console.WriteLine($"Array is FixedSize : {arr.IsFixedSize}");
+        //     Console.WriteLine($"Array is ReadOnly : {arr.IsReadOnly}");
+        //     Console.WriteLine($"Array Rank: {arr.Rank}");
+
+        //     Array.Sort(arr);
+        //     Console.WriteLine("\nSorted Array:");
+        //     foreach (var it in arr)
+        //         Console.Write($"{it} ");
+
+        //     Array.Reverse(arr);
+        //     Console.WriteLine("\nReversed Array:");
+        //     foreach (var it in arr)
+        //         Console.Write($"{it} ");
+
+        //     Console.WriteLine("\n\n--- Object Passing Demo ---");
+
+        //     Program program = new Program();
+
+        //     Employee employee = new Employee
+        //     {
+        //         Id = 90,
+        //         Name = "Dinesh Kumar"
+        //     };
+
+        //     program.PassObject(employee);
+
+        //     Employee employee6 = program.ReturnObject();
+        //     Console.WriteLine("\nReturned Object:");
+        //     Console.WriteLine(employee6);
+
+        //     Employee employee1 = new Employee { Id = 30, Name = "Ankit Raj" };
+        //     Employee employee2 = new Employee { Id = 20, Name = "Mukesh" };
+        //     Employee employee3 = new Employee { Id = 40, Name = "Sukesh" };
+        //     Employee employee4 = new Employee { Id = 50, Name = "Jukesh" };
+        //     Employee employee5 = new Employee { Id = 100, Name = "Lukesh" };
+
+        //     Employee[] employees = new Employee[5];
+        //     employees[0] = employee1;
+        //     employees[1] = employee2;
+        //     employees[2] = employee3;
+        //     employees[3] = employee4;
+        //     employees[4] = employee5;
+
+        //     program.PassArrayObject(employees);
+
+        //     Array.Sort(employees);
+        //     Console.WriteLine("\nSorted Employee Array (By Id):");
+        //     foreach (var emp in employees)
+        //         Console.WriteLine(emp);
+        // }
+        // public void PassObject(Employee emp)
+        // {
+        //     Console.WriteLine("\nPassed Object:");
+        //     Console.WriteLine(emp);
+        // }
+
+        // public Employee ReturnObject()
+        // {
+        //     return new Employee { Id = 101, Name = "Returned Employee" };
+        // }
+
+        // public void PassArrayObject(Employee[] emps)
+        // {
+        //     Console.WriteLine("\nEmployee Array Received:");
+        //     foreach (var emp in emps)
+        //         Console.WriteLine(emp);
+
+
+
+        // int n = int.Parse(Console.ReadLine());
+        // int[] arr = new int[n];
+        // for (int i = 0; i < n; i++)
+        // {
+        //     arr[i] = int.Parse(Console.ReadLine());
+        // }
+        // foreach(var it in arr)
+        //     {
+        //         Console.Write($"{it} ");
+        //     }
+        // Console.WriteLine();
+        // for(int i = 0; i < n - 1; i++)
+        //     {
+        //         for(int j = 0; j < n - i - 1; j++)
+        //         {
+        //             if (arr[j] > arr[j + 1])
+        //             {
+        //                 int T=arr[j];
+        //                 arr[j] = arr[j+1];
+        //                 arr[j+1] = T;
+        //             }
+        //         }
+        //     }
+        // foreach(var it in arr)
+        //     {
+        //         Console.Write($"{it} ");
+        //     }
+
+        // int n = int.Parse(Console.ReadLine());
+        // int[] arr = new int[n];
+        // for (int i = 0; i < n; i++)
+        // {
+        //     arr[i] = int.Parse(Console.ReadLine());
+        // }
+        // foreach (var it in arr)
+        // {
+        //     Console.Write($"{it} ");
+        // }
+        // Console.WriteLine();
+        // for (int i = 0; i < n - 1; i++)
+        // {
+        //     for (int j = 0; j < n - i - 1; j++)
+        //     {
+        //         if (arr[j] < arr[j + 1])
+        //         {
+        //             int T = arr[j];
+        //             arr[j] = arr[j + 1];
+        //             arr[j + 1] = T;
+        //         }
+        //     }
+        // }
+        // foreach (var it in arr)
+        // {
+        //     Console.Write($"{it} ");
+        // }
+
+
+
+
+        // int n = int.Parse(Console.ReadLine());
+        // List<int> arr = new List<int>();
+        // for(int i = 0; i < n; i++)
+        // {
+        //     arr.Add(int.Parse(Console.ReadLine()));
+        // }
+        // int x = int.Parse(Console.ReadLine());
+        // arr.Add(x);
+        // arr.Sort();
+        // foreach(var it in arr)
+        // {
+        //     Console.Write($"{it} ");
+        // }
+
+
+        
+        // Console.Write("Input the size of array: ");
+        // int n = int.Parse(Console.ReadLine());
+
+        // int[] arr = new int[n];
+
+        // Console.WriteLine($"Input {n} elements in the array:");
+        // for (int i = 0; i < n; i++)
+        // {
+        //     Console.Write($"element - {i} : ");
+        //     arr[i] = int.Parse(Console.ReadLine());
+        // }
+
+        // Console.Write("Input the value to be inserted: ");
+        // int value = int.Parse(Console.ReadLine());
+
+        // Console.Write("Input the position, where the value to be inserted: ");
+        // int pos = int.Parse(Console.ReadLine());
+
+        // Console.WriteLine("\nThe current list of the array:");
+        // foreach (int i in arr)
+        //     Console.Write(i + " ");
+
+        // int[] newArr = new int[n + 1];
+
+        // for (int i = 0; i < pos - 1; i++)
+        //     newArr[i] = arr[i];
+
+        // newArr[pos - 1] = value;
+
+        // for (int i = pos - 1; i < n; i++)
+        //     newArr[i + 1] = arr[i];
+
+        // Console.WriteLine("\nAfter Insert the element the new list is:");
+        // foreach (int i in newArr)
+        //     Console.Write(i + " ");
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+class Program
+{
+    static void Main(string[] args)
+//     {
+//         // int[] arr;
+//         // arr = new int[6];
+//         // arr[0] = 100000000;
+//         // Console.WriteLine(arr[0]);
+//         // Console.Write("Enter the Length of Array: ");
+//         // int len = int.Parse(Console.ReadLine());
+//         // int[] arr = new int[len];
+//         // int length = arr.Length;
+//         // Console.WriteLine(length);
+//         // for(int i = 0; i < arr.Length; i++)
+//         // {
+//         //     Console.Write($"Enter index element {i+1}: ");
+//         //     arr[i] = Convert.ToInt32(Console.ReadLine());
+//         // }
+//         // foreach(var it in arr)
+//         // {
+//         //     Console.Write($"{it} ");
+//         // }
+
+
+//         int[,] arr = new int[3,3];
+//         arr[0,0] = 10;
+//         arr[0,1] = 20;
+//         arr[0,2] = 30;
+//         arr[1,0] = 40;
+//         arr[1,1] = 50;
+//         arr[1,2] = 60;
+//         arr[2,0] = 70;
+//         arr[2,1] = 80;
+//         arr[2,2] = 90;
+//         Console.WriteLine("Elemnet is 3 * 3 matrix is ");
+
+//         for(int i = 0; i < 3; i++)
+//         {
+//             for(int j = 0; j < 3; j++)
+//             {
+//                 Console.Write($"{arr[i,j]} ");
+//             }
+//             Console.WriteLine();
+//         }
+//         Console.WriteLine();
+//         for(int i = 0; i < arr.GetLength(0); i++)
+//         {
+//             for(int j = 0; j < arr.GetLength(1); j++)
+//             {
+//                 Console.Write($"{arr[i,j]} ");
+//             }
+//             Console.WriteLine();
+//         }
+//         int k=0;
+//         int l=0;
+//         Console.Write("Enter Number Of Rows: ");
+//         k = int.Parse(Console.ReadLine());
+//         Console.Write("Enter Number Of Cols: ");
+//         l = int.Parse(Console.ReadLine());
+
+//         int[,] arr1 = new int[k,l];
+//         for(int i = 0; i < arr1.GetLength(0); i++)
+//         {
+//             for(int j = 0; j < arr1.GetLength(1); j++)
+//             {
+//                 Console.Write($"Enter index {i} , {j}: ");
+//                 arr1[i,j] = int.Parse(Console.ReadLine());
+//             }
+//         }
+//         Console.WriteLine("Matrix Element is:");
+//         for(int i = 0; i < arr1.GetLength(0); i++)
+//         {
+//             for(int j = 0; j < arr1.GetLength(1); j++)
+//             {
+//                 Console.Write($"{arr1[i,j]} ");
+//             }
+//             Console.WriteLine();
+//         }
+    }
+}
